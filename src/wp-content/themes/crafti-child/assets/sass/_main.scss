@@ -1,0 +1,33 @@
+//search
+.search_modern{
+    .search_wrap{
+        background-color:#ea643f !important ;
+        .search_header_wrap{
+            img{
+                filter: brightness(0) invert(1);
+            }
+            .search_close{
+                color: #fff !important;
+            }
+        }
+    
+    }
+    .search_form_wrap{
+        form.search_form{
+            input{
+                color: #fff;
+                &::placeholder{
+                    color: #fff !important;
+                }
+            }
+            &::after{
+                background-color: #fff !important;
+            }
+        }
+        .search_submit{
+            &:before {
+                color: #fff !important;
+            }
+        }
+    }
+} 
